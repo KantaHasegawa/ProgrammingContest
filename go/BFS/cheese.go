@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e
 func Cheese() {
 	var h, w, n int
 	fmt.Scan(&h, &w, &n)
