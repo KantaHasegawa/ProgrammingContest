@@ -1,9 +1,7 @@
 package main
 
-import (
-	dfs "root/DFS"
-)
+import dfs "root/DFS"
 
 func main() {
-	dfs.ArgoshikiBlackArea()
+	dfs.TopologicalSort()
 }
