@@ -1,4 +1,4 @@
-package main
+package shortest_path
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ func max(i, j int) int {
 const INF = 2147483647
 const NEG_INF = -2147483647
 
-func main() {
+func Bellman_ford() {
 	var n, m int
 	fmt.Scan(&n, &m)
 	edges := make([][]int, m)
