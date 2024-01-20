@@ -1,7 +1,7 @@
 package main
 
 import (
-	numbertheory "root/NumberTheory"
+	dp "root/DP"
 )
 
 func min(i, j int) int {
@@ -24,5 +24,5 @@ const INF = 2147483647
 const NEG_INF = -2147483647
 
 func main() {
-	numbertheory.PrimeFactory()
+	dp.LevenStein()
 }
